@@ -28,9 +28,33 @@
     #binding-cells = <0>;
     bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
   };
-  macro_kinesis: macro_kinesis {
+  macro_rby: macro_rby{
     compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
+    label = "macro_rby";
+    wait-ms = <10>;
     #binding-cells = <0>;
-    bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
+    bindings = <&kp LS(R)>, <&kp E>, <&kp V>, <&kp I>, <&kp E>, <&kp W>, <&kp E>, <&kp D>, <&kp MINUS>, <&kp B>, <&kp Y>, <&kp LS(SEMI)>, <&kp SPACE>;
+  };
+  macro_sob: macro_sob{
+    compatible = "zmk,behavior-macro";
+    label = "macro_sob";
+    wait-ms = <10>;
+    #binding-cells = <0>;
+    bindings = <&kp LS(S)>, <&kp I>, <&kp G>, <&kp N>, <&kp E>, <&kp D>, <&kp MINUS>, <&kp O>, <&kp F>, <&kp F>, <&kp MINUS>, <&kp B>, <&kp Y>, <&kp LS(SEMI)>, <&kp SPACE>;
+  };
+  macro_email: macro_email{
+    compatible = "zmk,behavior-macro";
+    label = "macro_email";
+    wait-ms = <10>;
+    #binding-cells = <0>;
+    bindings = <&kp A>, <&kp N>, <&kp K>, <&kp U>, <&kp R>, <&kp DOT>, <&kp A>, <&kp DOT>, <&kp A>, <&kp R>, <&kp O>, <&kp R>, <&kp A>, <&kp LS(N2)>, <&kp O>, <&kp R>, <&kp A>, <&kp C>, <&kp L>, <&kp E>, <&kp DOT>, <&kp C>, <&kp O>, <&kp M>;
+  };
+
+  macro_thanks: macro_thanks {
+    compatible = "zmk,behavior-macro";
+    label = "macro_thanks";
+    wait-ms = <10>;
+    #binding-cells = <0>;
+    bindings = <&kp LS(T)>, <&kp H>, <&kp A>, <&kp N>, <&kp K>, <&kp S>, <&kp ENTER>, <&kp LS(A)>, <&kp N>, <&kp K>, <&kp U>, <&kp R>, <&kp ENTER>;
+  };
   };
