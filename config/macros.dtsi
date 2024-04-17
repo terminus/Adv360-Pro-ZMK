@@ -1,48 +1,53 @@
   macro_quotes: macro_quotes {
     compatible = "zmk,behavior-macro";
     label = "macro_quotes";
+    wait-ms = <10>;
     #binding-cells = <0>;
     bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
   };
   macro_dquotes: macro_dquotes {
     compatible = "zmk,behavior-macro";
     label = "macro_dquotes";
+    wait-ms = <10>;
     #binding-cells = <0>;
     bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
   };
   macro_braces: macro_braces {
     compatible = "zmk,behavior-macro";
     label = "macro_braces";
+    wait-ms = <10>;
     #binding-cells = <0>;
     bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
   };
   macro_parens: macro_parens {
     compatible = "zmk,behavior-macro";
     label = "macro_parens";
+    wait-ms = <10>;
     #binding-cells = <0>;
     bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
   };
   macro_brackets: macro_brackets {
     compatible = "zmk,behavior-macro";
     label = "macro_brackets";
+    wait-ms = <10>;
     #binding-cells = <0>;
     bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
   };
-  macro_rby: macro_rby{
+  macro_rby: macro_rby {
     compatible = "zmk,behavior-macro";
     label = "macro_rby";
     wait-ms = <10>;
     #binding-cells = <0>;
     bindings = <&kp LS(R)>, <&kp E>, <&kp V>, <&kp I>, <&kp E>, <&kp W>, <&kp E>, <&kp D>, <&kp MINUS>, <&kp B>, <&kp Y>, <&kp LS(SEMI)>, <&kp SPACE>;
   };
-  macro_sob: macro_sob{
+  macro_sob: macro_sob {
     compatible = "zmk,behavior-macro";
     label = "macro_sob";
     wait-ms = <10>;
     #binding-cells = <0>;
     bindings = <&kp LS(S)>, <&kp I>, <&kp G>, <&kp N>, <&kp E>, <&kp D>, <&kp MINUS>, <&kp O>, <&kp F>, <&kp F>, <&kp MINUS>, <&kp B>, <&kp Y>, <&kp LS(SEMI)>, <&kp SPACE>;
   };
-  macro_email: macro_email{
+  macro_email: macro_email {
     compatible = "zmk,behavior-macro";
     label = "macro_email";
     wait-ms = <10>;
