@@ -62,4 +62,17 @@
     #binding-cells = <0>;
     bindings = <&kp LS(T)>, <&kp H>, <&kp A>, <&kp N>, <&kp K>, <&kp S>, <&kp ENTER>, <&kp LS(A)>, <&kp N>, <&kp K>, <&kp U>, <&kp R>, <&kp ENTER>;
   };
+
+  meta_key: meta_key {
+    compatible = "zmk,behavior-tap-dance";
+    tapping-term-ms = <200>;
+    #binding-cells = <0>;
+    bindings = <&kp LMETA>, <&kp RMETA>;
+  };
+
+  alt_key: alt_key {
+    compatible = "zmk,behavior-tap-dance";
+    tapping-term-ms = <200>;
+    #binding-cells = <0>;
+    bindings = <&kp LALT>, <&kp RALT>;
   };
