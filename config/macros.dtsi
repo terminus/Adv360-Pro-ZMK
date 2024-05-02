@@ -63,6 +63,39 @@
     bindings = <&kp LS(T)>, <&kp H>, <&kp A>, <&kp N>, <&kp K>, <&kp S>, <&kp ENTER>, <&kp LS(A)>, <&kp N>, <&kp K>, <&kp U>, <&kp R>, <&kp ENTER>;
   };
 
+  macro_console: macro_console {
+    compatible = "zmk,behavior-macro";
+    label = "macro_console";
+    wait-ms = <10>;
+    #binding-cells = <0>;
+    bindings = <&kp S>, <&kp T>, <&kp A>, <&kp R>, <&kp T>, <&kp SPACE>, <&kp FSLH>, <&kp H>, <&kp O>, <&kp S>, <&kp T>, <&kp FSLH>, <&kp C>, <&kp O>, <&kp N>, <&kp S>, <&kp O>, <&kp L>, <&kp E>, <&kp ENTER>;
+  };
+
+  macro_changeme: macro_changeme {
+    compatible = "zmk,behavior-macro";
+    label = "macro_changeme";
+    wait-ms = <10>;
+    #binding-cells = <0>;
+    bindings = <&kp C>, <&kp H>, <&kp A>, <&kp N>, <&kp G>, <&kp E>, <&kp M>, <&kp E>, <&kp ENTER>;
+  };
+
+  macro_t4o: macro_test4oel {
+    compatible = "zmk,behavior-macro";
+    label = "macro_test4oel";
+    wait-ms = <10>;
+    #binding-cells = <0>;
+    bindings = <&kp T>, <&kp E>, <&kp S>, <&kp T>, <&kp N4>, <&kp O>, <&kp E>, <&kp L>, <&kp ENTER>;
+
+  };
+
+  macro_wel: macro_welcome {
+    compatible = "zmk,behavior-macro";
+    label = "macro_welcome";
+    wait-ms = <10>;
+    #binding-cells = <0>;
+    bindings = <&kp W>, <&kp E>, <&kp L>, <&kp C>, <&kp O>, <&kp M>, <&kp E>, <&kp N1>, <&kp ENTER>;
+  };
+
   meta_key: meta_key {
     compatible = "zmk,behavior-tap-dance";
     tapping-term-ms = <200>;
