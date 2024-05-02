@@ -42,7 +42,7 @@
     };
     keypad {
       bindings = <
-        &trans &trans &trans &trans &trans &trans  &none                                           				&none &trans &trans &trans &trans  &trans  &trans
+        &trans &trans &trans &trans &trans &trans  &tog 1                                           				&mo 3 &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans  &macro_rby                                           		              &macro_email  &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans  &macro_sob   		   &kp LCTRL &kp RALT &kp RMETA  &kp RCTRL            &macro_thanks &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans                      			   &trans &trans                              &trans &trans &trans &trans  &trans  &trans
