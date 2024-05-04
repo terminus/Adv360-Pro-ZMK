@@ -109,3 +109,10 @@
     #binding-cells = <0>;
     bindings = <&kp LALT>, <&kp RALT>;
   };
+
+  ctrl_key: ctrl_key {
+    compatible = "zmk,behavior-tap-dance";
+    tapping-term-ms = <200>;
+    #binding-cells = <0>;
+    bindings = <&kp LCTRL>, <&kp RCTRL>;
+  };
