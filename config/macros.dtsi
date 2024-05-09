@@ -116,3 +116,17 @@
     #binding-cells = <0>;
     bindings = <&kp LCTRL>, <&kp RCTRL>;
   };
+
+  bt_sel_mac: bt_sel_mac {
+    compatible = "zmk,behavior-tap-dance";
+    tapping-term-ms = <200>;
+    #binding-cells = <0>;
+    bindings = <&bt BT_SEL 2>, <&to 1>;
+  };
+
+  bt_sel_linux: bt_sel_linux {
+    compatible = "zmk,behavior-tap-dance";
+    tapping-term-ms = <200>;
+    #binding-cells = <0>;
+    bindings = <&bt BT_SEL 4>, <&to 0>;
+  };
